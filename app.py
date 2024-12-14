@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 
 st.set_page_config(layout='wide',page_title='Watch Analysis')
 
-df = pd.read_csv('D:\Career\Data Science\CX\Deployment\Streamlit\Cleaned_LuxuryWatches.csv')
+df = pd.read_csv('https://github.com/OmkarAK/LuxuryWatch/blob/main/Cleaned_LuxuryWatches.csv')
 
 st.title('Watch Analysis')
 
